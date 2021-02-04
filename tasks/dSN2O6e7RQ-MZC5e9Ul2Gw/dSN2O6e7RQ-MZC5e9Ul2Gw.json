@@ -1,0 +1,25 @@
+{
+    "task_class": "ml_lib.model.dag_tasks.ml_task.MLTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "default_dependency_package_group"
+    ],
+    "is_enabled": true,
+    "category": "ml",
+    "name": "SKL SVR Regressor",
+    "description": "SVR Regressor",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "v1",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "dSN2O6e7RQ-MZC5e9Ul2Gw"
+}
