@@ -1,0 +1,54 @@
+{
+    "create_ts": "2021-02-02 17:53:09.734853",
+    "task_id": "pkXstb_YSZO2rbT5vVZ96Q",
+    "version_id": "v1",
+    "task_name": "Construct semantic relations",
+    "task_class": "xpms_lib_dag.tasks.mq_task.MqTask",
+    "name": "Construct semantic relations",
+    "description": "Construct semantic relations",
+    "start": null,
+    "end": null,
+    "tasks": {},
+    "config": {
+        "conditions": null,
+        "service_name": "semantic_relation",
+        "trigger": "semantic_relation"
+    },
+    "exec_type": "async",
+    "category": "platform_api",
+    "is_enabled": false,
+    "is_published": true,
+    "is_deleted": false,
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "extras": {
+        "x_config": [
+            {
+                "name": "graph_uri",
+                "description": "Enter the Graph URI",
+                "data_type": "string",
+                "op_type": "continuous",
+                "value": "None",
+                "multi_select": false,
+                "hidden": false,
+                "config_path": "config.data.graph_uri",
+                "ui_component": "",
+                "_XpmsObjectMixin__type": "StringConfiguration",
+                "_XpmsObjectMixin__api_version": "1.0.13",
+                "closure": "closed_closed"
+            }
+        ]
+    },
+    "next": [],
+    "previous": [],
+    "timeout": 0,
+    "retries": 0,
+    "instance_id": "dK6O3gsIRReie6H-DsW-iQ",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "",
+    "_XpmsObjectMixin__type": "Task",
+    "_XpmsObjectMixin__api_version": "9.5"
+}
