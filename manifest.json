@@ -151,6 +151,10 @@
     {
       "function_name": "hma_move_error_train_to_completed",
       "function_file_path": "highmark_pipeline/hma_move_error_train_to_completed.py"
+    },
+    {
+      "function_name": "hma_batch_train_mapper",
+      "function_file_path": "hma_batch_train_mapper.py"
     }
 
 
