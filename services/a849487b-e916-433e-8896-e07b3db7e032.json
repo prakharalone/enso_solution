@@ -1,0 +1,37 @@
+{
+    "name": "extract_document_elements_word",
+    "description": "service to extract elements from word",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-02-03T07:42:39.971486",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "service_id": "a849487b-e916-433e-8896-e07b3db7e032",
+    "service_key": "document_elements_word",
+    "display_name": "Extract Document Elements Word",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"data\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}}, \"required\": [\"doc_id\"]}, \"trigger\": {\"enum\": [\"extract_document_elements_word\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"data\"]}",
+    "response_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"metadata\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}, \"document_elements_word\": {\"type\": \"array\"}}, \"required\": [\"doc_id\"]}, \"status\": {\"type\": \"object\"}, \"trigger\": {\"enum\": [\"extract_document_elements_word_response\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"metadata\"]}",
+    "request_trigger": "extract_document_elements_word",
+    "response_trigger": "extract_document_elements_word_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_3",
+    "service_name": "extract_document_elements_word",
+    "service_type": "INTERNAL"
+}

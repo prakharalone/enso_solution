@@ -1,0 +1,37 @@
+{
+    "name": "extract_hocr_tesseract",
+    "description": "service to extract hocr from scanned document images",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-02-03T07:42:39.741306",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "service_id": "32ca00d5-0114-4af3-a0d2-df42cff4526d",
+    "service_key": "extract_hocr_tesseract_key",
+    "display_name": "Extract Document Hocr tesseract",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"data\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}}, \"required\": [\"doc_id\"]}, \"trigger\": {\"enum\": [\"extract_hocr_tesseract\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"data\"]}",
+    "response_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"metadata\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}, \"extracted_document_hocr\": {\"type\": \"array\"}}, \"required\": [\"doc_id\"]}, \"status\": {\"type\": \"object\"}, \"trigger\": {\"enum\": [\"extract_hocr_tesseract_response\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"metadata\"]}",
+    "request_trigger": "extract_hocr_tesseract",
+    "response_trigger": "extract_hocr_tesseract_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_2",
+    "service_name": "extract_hocr_tesseract",
+    "service_type": "INTERNAL"
+}

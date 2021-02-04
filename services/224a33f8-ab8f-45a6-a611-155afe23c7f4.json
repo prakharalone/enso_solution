@@ -1,0 +1,37 @@
+{
+    "name": "preprocess_scanned_pdf",
+    "description": "service to convert, deskew and extract hocr of scanned pdf",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-02-03T07:42:39.651387",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "service_id": "224a33f8-ab8f-45a6-a611-155afe23c7f4",
+    "service_key": "preprocess_scannedpdf_lambda_key",
+    "display_name": "Preprocess scanned pdf",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"data\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}}, \"required\": [\"doc_id\"]}, \"trigger\": {\"enum\": [\"preprocess_scannedpdf_lambda\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"data\"]}",
+    "response_schema": "{\"type\": \"object\", \"properties\": {\"request_id\": {\"type\": \"string\"}, \"solution_id\": {\"type\": \"string\"}, \"metadata\": {\"type\": \"object\", \"properties\": {\"doc_id\": {\"type\": \"string\"}, \"converted_document\": {\"type\": \"array\"}}, \"required\": [\"doc_id\"]}, \"status\": {\"type\": \"object\"}, \"trigger\": {\"enum\": [\"preprocess_scannedpdf_lambda_response\"]}}, \"required\": [\"request_id\", \"solution_id\", \"trigger\", \"metadata\"]}",
+    "request_trigger": "preprocess_scannedpdf_lambda",
+    "response_trigger": "preprocess_scannedpdf_lambda_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_2",
+    "service_name": "preprocess_scanned_pdf",
+    "service_type": "INTERNAL"
+}
