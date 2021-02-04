@@ -1,0 +1,25 @@
+{
+    "task_class": "xpms_lib_dag.tasks.user_review_task.UserReviewTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "services",
+    "name": "Review Task",
+    "description": "",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "pc9pe_88R2OmfVhUw3uDfA",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "1M7lWEIySCu53y81xN-Oww"
+}

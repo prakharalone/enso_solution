@@ -1,0 +1,25 @@
+{
+    "task_class": "xpms_lib_dag.tasks.ingest_exec_data_task.IngestEventExecData",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "services",
+    "name": "Ingest Event Execution data to pulse",
+    "description": "",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "omIddL1wRi6qRrL2yMItqw",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "qBSwhKleTCuseFr0vOD2lw"
+}

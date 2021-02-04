@@ -1,0 +1,25 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dummy_task.DummyTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "services",
+    "name": "Dummy Service Task",
+    "description": "",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "ZmHgEj4JQsSh1qwOmv519Q",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "eQytMzALSQ6syDKNcyEuYA"
+}

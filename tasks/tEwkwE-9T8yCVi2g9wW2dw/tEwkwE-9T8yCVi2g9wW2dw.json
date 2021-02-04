@@ -1,0 +1,25 @@
+{
+    "task_class": "xpms_lib_dag.tasks.publish_task.Publish",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "services",
+    "name": "Publish MQ Message Task",
+    "description": "",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "iqey4lfoR7KkWbgkux-2qA",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "tEwkwE-9T8yCVi2g9wW2dw"
+}
